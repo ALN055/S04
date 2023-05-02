@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Sabater - S04 Activity</title>
+        <style>
+
+        .img{
+            display: inline-block;
+            margin-left: 60px;
+        }
+        img{
+            transition: transform .2s;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        img:hover{
+            transform:scale(7);
+        }
+        </style>
+    </head>
+    <body>
+        <!-- Draggable text but needs some css to put it in a box or smthn-->
+        <p draggable="true"> helo, is me again on this session i relearned the basics of 
+            <abbr title="Hypertext Markup Language">HTML</abbr> and its purposes also this is a draggable text  </p>
+            <p> <strong>Some Music &#40;Think of it as bg music lol&#41;</p> </strong>
+            <!---Auto Looping BGM i guess-->
+            <audio controls loop>
+                <source src="Soft Heavy Hands _ Mood2Go4.mp3" type="audio/mpeg">
+            </audio>
+
+            <br />
+        <p> I would like to share my hobby of playing games like Overwatch 2, here is a clip of mine. :3</p>
+        <!-- Winton overwat clip-->
+        <video width="720" height="440" controls>
+            <source src="file_23-02-05_11-37-41.mp4" alt="OWCLIP" type="video/mp4">
+        <!--I dont have an actual subs for this so i just got a random one from the internet-->
+            <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+        </video>
+
+        <table style="border: 1px solid black">
+            <caption>
+              Overwatch Account Peak Ranks
+            </caption>
+            <thead>
+                <tr style ="border: 1px solid black">
+                    <th style ="border: 1px solid black"> Season</th>
+                    <th style ="border: 1px solid black"> Role</th>
+                    <th style ="border: 1px solid black"> Rank</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style ="border: 1px solid black"> 1</td>
+                    <td style ="border: 1px solid black"> Support</td>
+                    <td style ="border: 1px solid black; background-color: rgb(200, 255, 0)"
+                    rowspan="2"> Gold</td>
+                </tr>
+                <tr>
+                    <td style ="border: 1px solid black"> 2</td>
+                    <td style ="border: 1px solid black"> Support</td>
+                </tr>
+                <tr>
+                    <td style ="border: 1px solid black"> 3</td>
+                    <td style ="border: 1px solid black"> Support</td>
+                    <td style ="border: 1px solid black; background-color: rgb(0, 183, 255)"
+                    rowspan="2"> Diamond</td>
+                </tr>
+            </tbody>    
+        </table>
+        <p> My Favorite Heroes:</p>
+        <ol type="A" start="26" reversed>
+            <li>Ana</li>
+            <li>Kiriko</li>
+            <li>Zen</li>
+            <li>Genji</li>
+            <li>Sigma</li>
+            <li>Sojourn</li>
+          </ol>
+          <hr />
+          <p> Just A Fella named Mysta ReeAss</p>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/oR4O6Dbfxks" alt="Mysta">
+          </iframe>
+          <!-- just a lil bit of css to move this and hover smol trolling idk if its allowed or not but ye i guess xd-->
+          <div class="img">
+          <img src="https://i.imgur.com/SQIt6g5.png" alt="seelereaction" width="100" height="100"> My Reaction to this Video
+          </div>
+          <hr />
+          <p> About My Favorite game this time</p>
+          <figure>
+            <img src="https://i.imgur.com/MpLeJmt.jpg" alt="Kiana" width="150" height="200">
+         
+          <figcaption>
+            The Character I really like the most <3 <a href="https://honkai-impact-3rd-archives.fandom.com/wiki/Kiana_Kaslana_(K-423)">
+                Kiana Kaslana </a> 
+          </figcaption>
+        </figure>
+        <form>
+            <label for="CapName">Captain Name</label>
+            <input type="'text" placeholder="Name" id="CapName" />
+            <label for="UID">User ID</label>
+            <input type="'number" placeholder="" id="UID" />
+            <label for="Age">Age</label>
+            <input type="'number" placeholder="Age" id="Age" />
+
+
+            <label for="'gender">Gender</label>
+            <select id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Non-binary</option>
+                <option>Prefer not to Say</option>
+            </select>
+
+            <p>Type of Player:</p>
+            <input type="radio" name="playstyle" id="Casual" />
+            <label for="Casual">Casual Player</label>
+            <input type="radio" name="playstyle" id="Hardcore" />
+            <label for="Hardcore">Hardcore Player</label>
+            <input type="radio" name="playstyle" id="Mix" />
+            <label for="Mix">Mix Of Both</label>
+
+            
+        <br />
+        <fieldset>
+            <legend>Mihoyo Games play That you play</legend>
+            <input type="checkbox" id="hi3" />
+            <label for="hi3">Honkai Impact 3rd</label>
+            <br />
+
+            <input type="checkbox" id="gi" />
+            <label for="gi">Gemshim Impact</label>
+            <br />
+
+            <input type="checkbox" id="tot" />
+            <label for="tot">Tears of Themis</label>
+            <br />
+
+            <input type="checkbox" id="hsr" />
+            <label for="hsr">Honkai Star Rail</label>
+        </fieldset>
+        <br /><br />
+
+        <textarea  cols="100" rows="15">Feedback</textarea>
+        <button>Send</button>  
+
+    </form>
+    </body>
+</html>
